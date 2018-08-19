@@ -1,0 +1,85 @@
+ html,
+ header,
+ body {
+     height: 100%;
+ }
+ 
+ .parallax {
+     /* Original background, keep justin case. 
+     background: radial-gradient(#cccc00, #004d00); */
+     background-image: url('theDivide.jpg');
+     height: 100%;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ h1 {
+     background: -webkit-linear-gradient(top, #e40707 45%, #f1f105 55%, #e40707 75%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: 125px;
+     text-align: center;
+     font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+     /* text-shadow: 5px 3px 5px #262626; */
+ }
+ 
+ h2 {
+     text-align: center;
+     font-size: 50px;
+     color: black;
+     font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+ }
+ 
+ h5 {
+     text-align: center;
+     color: #ffffff;
+     font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+ }
+ 
+ img {
+     padding: none;
+     border: 2px solid black;
+     outline-color: white;
+     outline-style: solid;
+     outline-width: 6px;
+     box-shadow: 15px 15px 40px 10px #262626;
+ }
+ /* Dont mind this block
+ Save the <p> tags style justin case
+p {
+    font-size: 30px;
+    color: white;
+} */
+ /* Pics 1-12 style and spacing*/
+ 
+ #pic1,
+ #pic2,
+ #pic3,
+ #pic4,
+ #pic5,
+ #pic6,
+ #pic7,
+ #pic8,
+ #pic9,
+ #pic10,
+ #pic11,
+ #pic12 {
+     float: sticky;
+     margin: 15px 100px 100px 75px;
+     height: 300px;
+     width: 240px;
+ }
+ /*Style for the big pics at the bottom */
+ 
+ #cat1,
+ #cat1-5,
+ #cat2,
+ #cat3,
+ #cat4 {
+     float: sticky;
+     height: 300px;
+     width: 400px;
+     margin: 15px 100px 100px 75px;
+ }
